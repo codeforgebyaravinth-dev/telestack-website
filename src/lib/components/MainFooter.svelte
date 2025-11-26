@@ -26,7 +26,7 @@
             {/each}
         </ul>
         <div class="mt-1 grid grid-cols-1 gap-y-4 md:grid-cols-3">
-            <div>Copyright © {year} Appwrite</div>
+            <div>Copyright © {year} TeleStack</div>
 
             <iframe
                 class="w-full md:w-fit md:max-w-[230px]"
@@ -107,7 +107,7 @@
 				</li> -->
             </ul>
             <div class="web-main-footer-grid-1-column-4 web-main-footer-copyright">
-                Copyright © {year} Appwrite
+                Copyright © {year} TeleStack
             </div>
         </div>
     </footer>

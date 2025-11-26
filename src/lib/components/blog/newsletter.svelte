@@ -45,9 +45,9 @@
                     Subscribe to our newsletter
                 </h3>
                 <p class="text-description text-primary">
-                    Sign up to our company blog and get the latest insights from Appwrite. Learn
+                    Sign up to our company blog and get the latest insights from TeleStack. Learn
                     more about engineering, product design, building community, and tips & tricks
-                    for using Appwrite.
+                    for using TeleStack.
                 </p>
             </section>
 

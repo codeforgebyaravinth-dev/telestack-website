@@ -3,7 +3,7 @@
     import { Button } from '$lib/components/ui';
 
     let {
-        heading = 'Start building with Appwrite today',
+        heading = 'Start building with TeleStack today',
         label = 'Get started',
         description = undefined,
         href = getAppwriteDashboardUrl(),

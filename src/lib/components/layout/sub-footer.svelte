@@ -22,7 +22,7 @@
         {/each}
     </ul>
     <div class="flex items-center gap-3">
-        <div>Copyright © {year} Appwrite</div>
+        <div>Copyright © {year} TeleStack</div>
 
         <iframe
             class="status w-fit max-w-[230px]"

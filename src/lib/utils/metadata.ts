@@ -59,7 +59,7 @@ export function softwareAppSchema() {
         offers: {
             '@type': 'Offer',
             price: '0',
-            priceCurrency': 'USD',
+            priceCurrency: 'USD',
             description: 'Free tier available'
         },
         aggregateRating: {
