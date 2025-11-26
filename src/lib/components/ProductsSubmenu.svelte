@@ -14,61 +14,61 @@
 
     export const products: Array<SubmenuItem> = [
         {
-            name: 'Auth',
-            href: '/products/auth',
-            description: 'Secure login with multi-factor auth.',
-            icon: '/images/icons/illustrated/dark/auth.png'
+            name: 'Authentication',
+            href: '/docs/backend/auth',
+            description: 'Secure user authentication and authorization.',
+            icon: '🔐'
         },
         {
             name: 'Databases',
-            href: '/docs/products/databases',
-            description: 'Scalable and robust databases.',
-            icon: '/images/icons/illustrated/dark/databases.png'
+            href: '/docs/backend/databases',
+            description: 'NoSQL database with real-time capabilities.',
+            icon: '🗃️'
         },
         {
             name: 'Storage',
-            href: '/products/storage',
-            description: 'Advanced compression and encryption.',
-            icon: '/images/icons/illustrated/dark/storage.png'
+            href: '/docs/backend/storage',
+            description: 'File storage with built-in optimization.',
+            icon: '📁'
         },
         {
             name: 'Functions',
-            href: '/products/functions',
-            description: 'Deploy & scale serverless functions.',
-            icon: '/images/icons/illustrated/dark/functions.png'
+            href: '/docs/backend/functions',
+            description: 'Serverless functions for custom logic.',
+            icon: '⚡'
         },
         {
-            name: 'Messaging',
-            href: '/products/messaging',
-            description: 'Set up a full-functioning messaging service.',
-            icon: '/images/icons/illustrated/dark/messaging.png'
+            name: 'Video Conferencing',
+            href: '/docs/communication/video',
+            description: 'Multi-party video calls with HD quality.',
+            icon: '🎥'
         },
         {
-            name: 'Realtime',
-            href: '/docs/apis/realtime',
-            description: 'Subscribe and react to any event.',
-            icon: '/images/icons/illustrated/dark/realtime.png'
+            name: 'Live Streaming',
+            href: '/docs/communication/streaming',
+            description: 'Broadcast to thousands with low latency.',
+            icon: '📡'
         },
         {
-            name: 'Sites',
-            href: '/products/sites',
-            description: 'The open-source Vercel alternative.',
-            icon: '/images/icons/illustrated/dark/sites.png'
+            name: 'Chat & Messaging',
+            href: '/docs/messaging/chat',
+            description: 'Real-time messaging with E2E encryption.',
+            icon: '💬'
         }
     ];
 
     export const sublinks: Array<SubLink> = [
         {
-            label: 'Appwrite vs. Supabase',
-            href: '/blog/post/appwrite-compared-to-supabase'
+            label: 'Platform Overview',
+            href: '/platform'
         },
         {
-            label: 'Appwrite vs. Firebase',
-            href: '/blog/post/open-source-firebase-alternative'
+            label: 'Use Cases',
+            href: '/use-cases'
         },
         {
-            label: 'Appwrite vs. Vercel',
-            href: '/blog/post/open-source-vercel-alternative'
+            label: 'Pricing',
+            href: '/pricing'
         }
     ];
 </script>
@@ -136,11 +136,7 @@
                             <div
                                 class="flex size-12 shrink-0 items-center justify-center rounded-lg border border-white/12 bg-white/6"
                             >
-                                <img
-                                    src={product.icon}
-                                    alt={product.name}
-                                    class="size-6 grayscale transition-all group-focus:grayscale-0"
-                                />
+                                <span class="text-2xl">{product.icon}</span>
                             </div>
                             <div class="">
                                 <span class="text-sub-body text-primary font-medium"
@@ -194,7 +190,7 @@
                             class="min-h-10 w-full shrink-0 rounded-xl object-cover md:aspect-[3/1] xl:max-w-30"
                         />
                         <p class="w-full text-pretty">
-                            Appwrite helped reduce development time by 60%, and lower server costs
+                            TeleStack helped reduce development time by 60%, and lower infrastructure costs
                             by 40%.
                         </p>
                     </a>
@@ -203,7 +199,7 @@
                 <div class="mt-8">
                     <span
                         class="font-aeonik-fono tracking-loose text-secondary block text-xs uppercase"
-                        >Compare Appwrite<span class="text-accent">_</span></span
+                        >Learn More<span class="text-accent">_</span></span
                     >
                     <div class="mt-3 space-y-3">
                         {#each sublinks as sublink}
