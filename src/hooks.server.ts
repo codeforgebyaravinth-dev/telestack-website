@@ -80,6 +80,7 @@ const securityheaders: Handle = async ({ event, resolve }) => {
         'upgrade-insecure-requests': '',
         'connect-src': join([
             "'self'",
+            'https://*.telestack.dev',
             'https://*.appwrite.io',
             'https://*.appwrite.org',
             'https://*.posthog.com',
@@ -92,7 +93,8 @@ const securityheaders: Handle = async ({ event, resolve }) => {
             'https://hemsync.clickagy.com',
             'https://ws.zoominfo.com ',
             'https://*.cookieyes.com',
-            'https://cdn-cookieyes.com'
+            'https://cdn-cookieyes.com',
+            'http://20.197.21.31'
         ]),
         'frame-src': join([
             "'self'",
