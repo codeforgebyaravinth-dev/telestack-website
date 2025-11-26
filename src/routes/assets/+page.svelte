@@ -337,10 +337,10 @@
                                 aspect-square flex-1 flex-col justify-center
                                 gap-2 px-6"
                                 >
-                                    <h3 class="text-label">Appwrite Pink</h3>
-                                    <p class="text-caption">#FD366E</p>
+                                    <h3 class="text-label">TeleStack Brand</h3>
+                                    <p class="text-caption">Teal Accent</p>
                                     <div class="buttons">
-                                        <Copy toCopy="#FD366E" variant="pink" />
+                                        <Copy toCopy="hsl(var(--web-color-brand-500))" variant="pink" />
                                     </div>
                                 </div>
                             </div>

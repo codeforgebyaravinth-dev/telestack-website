@@ -53,14 +53,14 @@
                     <div class="web-hero">
                         <h1
                             class="text-display font-aeonik-pro web-u-max-width-900 web-u-opacity-90 web-u-mobile-align-text-center self-center"
-                            style="background: linear-gradient(90deg, #F47298 0%, #E4E1E5 61.98%, #E4E4E7 100%);
+                            style="background: linear-gradient(90deg, hsl(var(--web-color-brand-500)) 0%, hsl(var(--web-color-greyscale-200)) 61.98%, hsl(var(--web-color-greyscale-200)) 100%);
                                 -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding-block-end:2px;"
                         >
                             Pricing
                         </h1>
                         <p
                             class="text-description max-w-sm self-center text-center opacity-90"
-                            style="background: linear-gradient(90deg, #F47298 0%, #E4E1E5 61.98%, #E4E4E7 100%);
+                            style="background: linear-gradient(90deg, hsl(var(--web-color-brand-500)) 0%, hsl(var(--web-color-greyscale-200)) 61.98%, hsl(var(--web-color-greyscale-200)) 100%);
                                 -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding-block-end:2px;"
                         >
                             Appwrite offers simple and transparent pricing plans with no surprises.
