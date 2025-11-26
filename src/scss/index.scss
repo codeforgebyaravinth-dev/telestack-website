@@ -1,8 +1,8 @@
 @use 'sass:meta';
 
-@layer blue, css-variables, resets, fonts, icons, animations, elements, bluecomponents, sequences, grids, pages, blueutilities;
+@layer brand, css-variables, resets, fonts, icons, animations, elements, components, sequences, grids, pages, utilities;
 
-@layer blue {
+@layer brand {
   @include meta.load-css('pink-icons');
 }
 
@@ -30,7 +30,7 @@
   @include meta.load-css('6-elements/index');
 }
 
-@layer bluecomponents {
+@layer components {
   @include meta.load-css('7-components/index');
 }
 
@@ -46,6 +46,6 @@
   @include meta.load-css('9-pages/index');
 }
 
-@layer blueutilities {
+@layer utilities {
   @include meta.load-css('10-utilities');
 }
