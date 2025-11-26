@@ -65,36 +65,61 @@ export type SearchableCategory = {
     description: string;
 };
 
+// TeleStack Platform Services - Three Core Pillars
+export const TELESTACK_SERVICES = {
+    BACKEND: {
+        name: 'Backend Services',
+        slug: 'backend',
+        description: 'Complete backend infrastructure powered by Appwrite',
+        icon: 'database',
+        features: ['Auth', 'Databases', 'Storage', 'Functions', 'Realtime']
+    },
+    COMMUNICATION: {
+        name: 'Real-time Communication',
+        slug: 'communication',
+        description: 'Video, audio, and live streaming powered by LiveKit',
+        icon: 'video',
+        features: ['Video Calls', 'Audio Rooms', 'Screen Sharing', 'Live Streaming', 'Recording']
+    },
+    MESSAGING: {
+        name: 'Federated Messaging',
+        slug: 'messaging',
+        description: 'Decentralized messaging and chat powered by Matrix',
+        icon: 'chat',
+        features: ['E2E Encryption', 'Federation', 'Group Chat', 'File Sharing', 'Voice Messages']
+    }
+} as const;
+
 export const integrationCategoryDescriptions: SearchableCategory[] = [
     {
-        slug: 'mcp',
-        heading: 'MCP',
-        description: 'Platforms with Model Context Protocol support'
+        slug: 'backend',
+        heading: 'Backend Services',
+        description: 'Authentication, databases, storage, and serverless functions'
     },
     {
-        slug: 'ai',
-        heading: 'AI',
-        description: 'Machine learning and AI capabilities'
-    },
-    {
-        slug: 'auth',
-        heading: 'Auth',
-        description: 'User authentication and authorization'
-    },
-    {
-        slug: 'databases',
-        heading: 'Databases',
-        description: 'Manage database systems'
-    },
-    {
-        slug: 'logging',
-        heading: 'Logging',
-        description: 'Monitor and analyze application logs'
+        slug: 'realtime-video',
+        heading: 'Real-time Video',
+        description: 'Video conferencing and live streaming solutions'
     },
     {
         slug: 'messaging',
-        heading: 'Messaging',
-        description: 'Real-time communication platforms'
+        heading: 'Messaging & Chat',
+        description: 'Federated and encrypted messaging platforms'
+    },
+    {
+        slug: 'ai',
+        heading: 'AI Integration',
+        description: 'Machine learning and AI capabilities'
+    },
+    {
+        slug: 'analytics',
+        heading: 'Analytics',
+        description: 'Track and analyze user behavior and platform metrics'
+    },
+    {
+        slug: 'notifications',
+        heading: 'Notifications',
+        description: 'Push, email, and in-app notification systems'
     },
     {
         slug: 'payments',
@@ -102,24 +127,9 @@ export const integrationCategoryDescriptions: SearchableCategory[] = [
         description: 'Secure online payment processing'
     },
     {
-        slug: 'search',
-        heading: 'Search',
-        description: 'Implement search functionalities'
-    },
-    {
-        slug: 'sites',
-        heading: 'Sites',
-        description: 'Deploy and host web applications'
-    },
-    {
-        slug: 'storage',
-        heading: 'Storage',
-        description: 'Storage for data and media'
-    },
-    {
-        slug: 'deployments',
-        heading: 'Deployments',
-        description: 'Seamlessly deploy your code'
+        slug: 'deployment',
+        heading: 'Deployment',
+        description: 'CI/CD and hosting solutions'
     }
 ];
 

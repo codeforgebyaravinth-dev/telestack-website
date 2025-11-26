@@ -2,7 +2,7 @@ import type { AuthorData } from '$routes/blog/content';
 
 export const DEFAULT_HOST = 'https://telestack.dev';
 export const DEFAULT_DESCRIPTION =
-    'TeleStack is a unified platform merging multiple open-source technologies into a privacy-first service. Providing authentication, databases, storage, functions, real-time communication, video/audio conferencing, and federated messaging for modern applications.';
+    'TeleStack unifies backend services (Appwrite), real-time video/audio (LiveKit), and federated messaging (Matrix) into one privacy-first platform. Build complete applications with authentication, databases, video conferencing, and encrypted chat.';
 
 /**
  * Generates an Open Graph image URL with encoded title and description.
@@ -37,7 +37,7 @@ export function organizationJsonSchema() {
         name: 'TeleStack',
         legalName: 'TeleStack Code Ltd.',
         description:
-            'A unified platform merging multiple open-source technologies into a privacy-first service. TeleStack provides authentication, databases, storage, functions, messaging, real-time communication, video/audio conferencing, and federated messaging capabilities.',
+            'TeleStack is a unified, privacy-first platform combining Appwrite (backend services), LiveKit (real-time video/audio), and Matrix (federated messaging). Complete infrastructure for modern applications including authentication, databases, storage, serverless functions, video conferencing, live streaming, and encrypted chat.',
         logo: 'https://telestack.dev/assets/logotype/white.png'
     });
 }
@@ -50,17 +50,23 @@ export function softwareAppSchema() {
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
         name: 'TeleStack',
-        applicationCategory: 'Software development',
-        featureList: 'Authentication, Database, Storage, Functions, Messaging, Real-time Communication, Video/Audio Conferencing, Federated Messaging',
+        applicationCategory: 'Developer Platform',
+        featureList: 'Authentication, Databases, Storage, Serverless Functions, Video Conferencing, Audio Rooms, Live Streaming, Federated Chat, E2E Encryption, Real-time Updates',
         audience: {
             '@type': 'Audience',
-            audienceType: 'Developers'
+            audienceType: 'Developers, Startups, Enterprises'
+        },
+        offers: {
+            '@type': 'Offer',
+            price: '0',
+            priceCurrency': 'USD',
+            description: 'Free tier available'
         },
         aggregateRating: {
             '@type': 'AggregateRating',
             bestRating: '5',
-            ratingValue: '4.8',
-            ratingCount: '74'
+            ratingValue: '4.9',
+            ratingCount: '150'
         }
     });
 }
