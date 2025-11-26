@@ -1,50 +1,60 @@
 # Contributing
 
-We would ❤️ you to contribute to the Appwrite website and help make it better! We want contributing to Appwrite to be fun, enjoyable, and educational for anyone and everyone. This document will walk you through the steps to complete your first contribution.
+We would ❤️ you to contribute to the TeleStack website and help make it better! We want contributing to TeleStack to be fun, enjoyable, and educational for anyone and everyone. This document will walk you through the steps to complete your first contribution.
 
 ## Code of conduct
 
-Help us keep Appwrite open and inclusive. Before interacting with the Appwrite community, please read and follow our [Code of Conduct](https://github.com/appwrite/.github/blob/main/CODE_OF_CONDUCT.md).
+Help us keep TeleStack open and inclusive. Before interacting with the TeleStack community, please read and follow our [Code of Conduct](https://github.com/codeforgebyaravinth-dev/telestack-website/blob/main/CODE_OF_CONDUCT.md).
 
 ## Find an issue
 
-Looking for a place to start? Have a feature request or bug report? Start with by searching through our [issues](https://github.com/appwrite/website/issues).
+Looking for a place to start? Have a feature request or bug report? Start with by searching through our [issues](https://github.com/codeforgebyaravinth-dev/telestack-website/issues).
 
 If you're looking for a good issue to start contributing, simple issues fit for first time contributors will be labelled `good first issue`. More challenging issues might be labelled `help wanted`.
 
-If you want to request features, improvements, or bug fixes, **search for existing issues first**. If you find a similar issue, comment and upvote the issue for visibility. If you cannot find a similar issues, open a new issue. If the Appwrite maintainers think the issue is an issue appropriate for contribution, we'll mark it as `help wanted`.
+If you want to request features, improvements, or bug fixes, **search for existing issues first**. If you find a similar issue, comment and upvote the issue for visibility. If you cannot find a similar issues, open a new issue. If the TeleStack maintainers think the issue is an issue appropriate for contribution, we'll mark it as `help wanted`.
 
 ## Fork and clone
 
-To contribute to the Appwrite website, you need to fork, clone, and run the website.
+To contribute to the TeleStack website, you need to fork, clone, and run the website.
 
-Start by [forking the repository](https://github.com/appwrite/website/fork), which makes a copy of the repo on your GitHub profile. This allows you to make code changes when you don't have permissions in the main Appwrite website repo.
+Start by [forking the repository](https://github.com/codeforgebyaravinth-dev/telestack-website/fork), which makes a copy of the repo on your GitHub profile. This allows you to make code changes when you don't have permissions in the main TeleStack website repo.
 
 Then, [clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
 
-Alternatively, you can develop the website repo in your browser using [Code Spaces](https://github.com/features/codespaces) or [GitPod](https://www.gitpod.io/#https://github.com/appwrite/website).
+Alternatively, you can develop the website repo in your browser using [Code Spaces](https://github.com/features/codespaces) or [GitPod](https://www.gitpod.io/#https://github.com/codeforgebyaravinth-dev/telestack-website).
 
 ## Development
 
-The Appwrite website uses [Bun](https://bun.com). Start by following their [installation](https://bun.com/docs/installation) documentation.
+The TeleStack website uses [Node.js](https://nodejs.org/) and [Vite](https://vitejs.dev/). While the project is optimized for [Bun](https://bun.com), you can also use npm or pnpm.
 
-Once you've cloned the Appwrite website repo, running the following command to install dependencies:
+Once you've cloned the TeleStack website repo, install dependencies:
 
 ```sh
+npm install
+# or if you have Bun installed
 bun install
 ```
 
 **Locate the `.env.example` file in the root directory and rename it to `.env`.** This file contains the required environment variables for the project to function properly.
 
-Then, run the following command to start a development server.
+Then, run the following command to start a development server:
 
 ```sh
+npx vite dev
+# or with npm scripts
+npm run dev
+# or with Bun
 bun run dev
 ```
+
+The development server will start at `http://localhost:5173/`.
 
 Before committing your code changes, make sure the website repo builds by running:
 
 ```sh
+npm run build
+# or with Bun
 bun run build
 ```
 
@@ -102,4 +112,4 @@ git push origin [name_of_your_new_branch]
 
 ## Documentation style
 
-When contributing to the Appwrite docs, follow the guide in [STYLE.md](./STYLE.md).
+When contributing to the TeleStack docs, follow the guide in [STYLE.md](./STYLE.md).
