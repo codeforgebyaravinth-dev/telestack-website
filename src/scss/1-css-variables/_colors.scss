@@ -6,9 +6,10 @@
     --web-color-primary: var(--web-color-greyscale-900);
     --web-color-secondary: var(--web-color-greyscale-700);
     --web-color-tertiary: var(--web-color-greyscale-600);
-    --web-color-accent: var(--web-color-blue-500);
-    --web-color-accent-darker: var(--web-color-blue-600);
-    --web-color-accent-click: var(--web-color-blue-500);
+    /* TeleStack brand accent */
+    --web-color-accent: var(--web-color-brand-500);
+    --web-color-accent-darker: var(--web-color-brand-600);
+    --web-color-accent-click: var(--web-color-brand-500);
     --web-color-card: var(--web-color-white) / 0.9;
     --web-color-smooth: var(--web-color-greyscale-900) / 0.04;
     --web-color-subtle: var(--web-color-greyscale-50);
@@ -23,8 +24,9 @@
     --web-color-primary: var(--web-color-greyscale-100);
     --web-color-secondary: var(--web-color-greyscale-300);
     --web-color-tertiary: var(--web-color-greyscale-600);
-    --web-color-accent: var(--web-color-blue-500);
-    --web-color-accent-darker: var(--web-color-blue-600);
+    /* TeleStack brand accent */
+    --web-color-accent: var(--web-color-brand-500);
+    --web-color-accent-darker: var(--web-color-brand-600);
     --web-color-accent-click: var(--web-color-greyscale-50);
     --web-color-card: var(--web-color-greyscale-850) / 0.9;
     --web-color-smooth: var(--web-color-white) / 0.06;
@@ -35,12 +37,12 @@
     --web-color-border: var(--web-color-subtle);
   }
   
-  /* blue (replacing pink) */
-  --web-color-pink-hue: 217;
-  --web-color-pink-200: var(--web-color-blue-hue) 98% 84%;
-  --web-color-pink-500: var(--web-color-blue-hue) 98% 60%; /* Blue accent */
-  --web-color-pink-600: var(--web-color-blue-hue) 65% 48%;
-  --web-color-pink-700: var(--web-color-blue-hue) 65% 36%;
+  /* TeleStack brand palette */
+  --web-color-brand-hue: 192; /* teal/azure vibe */
+  --web-color-brand-200: var(--web-color-brand-hue) 70% 82%;
+  --web-color-brand-500: var(--web-color-brand-hue) 85% 50%;
+  --web-color-brand-600: var(--web-color-brand-hue) 70% 42%;
+  --web-color-brand-700: var(--web-color-brand-hue) 65% 32%;
 
   /* red */
   --web-color-red-hue: 3;
@@ -79,9 +81,9 @@
   --web-color-blue-600: var(--web-color-blue-hue) 65% 48%;
   --web-color-blue-700: var(--web-color-blue-hue) 65% 36%;
 
-  /* secondary */
-  --web-color-secondary-hue: 217;
-  --web-color-secondary-100: var(--web-color-secondary-hue) 99% 66%; /* Blue secondary */
+  /* secondary accent (indigo/purple) */
+  --web-color-secondary-hue: 265;
+  --web-color-secondary-100: var(--web-color-secondary-hue) 90% 60%;
 
   /* greyscale */
   --web-color-white:    0 0% 100%;

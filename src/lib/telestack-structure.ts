@@ -21,7 +21,7 @@ export const PRODUCT_STRUCTURE = {
         name: 'Backend Services',
         description: 'Complete backend infrastructure for modern applications',
         icon: '🗄️',
-        color: '#F02E65', // Pink
+        color: '#14B8A6', // Teal (TeleStack backend)
         products: [
             {
                 id: 'auth',
@@ -61,7 +61,7 @@ export const PRODUCT_STRUCTURE = {
         name: 'Real-time Communication',
         description: 'Video, audio, and live streaming infrastructure',
         icon: '📹',
-        color: '#00D4AA', // Teal/Green
+        color: '#22C55E', // Green (Communication)
         products: [
             {
                 id: 'video',
@@ -101,7 +101,7 @@ export const PRODUCT_STRUCTURE = {
         name: 'Federated Messaging',
         description: 'Decentralized, encrypted communication',
         icon: '💬',
-        color: '#7B61FF', // Purple
+        color: '#6366F1', // Indigo (Messaging)
         products: [
             {
                 id: 'chat',
