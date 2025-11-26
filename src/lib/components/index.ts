@@ -1,5 +1,7 @@
 export { default as FooterNav } from './FooterNav.svelte';
 export { default as MainFooter } from './MainFooter.svelte';
+export { default as TeleStackNav } from './TeleStackNav.svelte';
+export { default as TeleStackFooter } from './TeleStackFooter.svelte';
 export { default as PreFooter } from './PreFooter.svelte';
 export { default as MobileNav } from './MobileNav.svelte';
 export { default as Switch } from './Switch.svelte';
